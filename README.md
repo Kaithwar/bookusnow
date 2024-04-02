@@ -1,70 +1,54 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# BookUsNow- GyanGroove Frontend Assignment
+This is a basic front-end of website which book the event as given. In then we use 2 APIs to fetch the data of shows and events.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Demo
 
-### `npm start`
+Insert gif or link to demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### 1) Clone the Repository
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+  git clone git@github.com:Kaithwar/BookUsNow.git
+```
+### 1) Install
 
-### `npm run build`
+```bash
+  npm install
+  npm run start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2) Requirements
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+  npm install react-slick --save
+  npm install slick-carousel --save
+  npm install react-infinite-scroll-component
+```
+I have used 3 libraries, react-slick is used for carousel component, slick-carousel for providing CSS and javascript to carousel and react-infinte-scroll for creating the infinte scroll in website.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+After installing of all the libraries you can run the application.
+    
+## Project Overview
 
-### `npm run eject`
+This project is a website consisting of three main sections: the navbar and Home section, the show carousel, and the events section. Bootstrap is used for designing the website, ensuring responsiveness across different devices.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Features:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Navbar and Home Section:** Navigation links and introduction to the website's content.
+- **Show Carousel:** Carousel component with horizontal infinite scrolling.
+- **Events Section:** Display of event cards populated with data fetched from an API, with infinite scrolling using React-Infinite-Scroll.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Technologies Used:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Bootstrap:** Responsive design.
+- **API Integration:** Utilized an API to fetch and populate event data.
+- **React-Infinite-Scroll:** Enable infinite scrolling.
+- **Lazy Loading:** Use of lazy-loaded GIF for loading states.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Conclusion:
+This website offers an intuitive browsing experience, with navigation, dynamic content, and responsiveness. It's a modern solution for showcasing events and content.
